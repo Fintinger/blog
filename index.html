@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        <script type="text/javascript">
-            window.location.href="www.fintinger.site"
-        </script>
-
-    </body>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+ <script language="javascript">
+var domain = "www.fintinger.xyz";
+var src = window.location.href;
+var prtc = src.substring(0, src.indexOf(':'));
+var target = src.substring(src.indexOf('/', src.indexOf(':') + 3));
+window.location.href = prtc + "://" + domain + target;
+location.href=prtc + "://" + domain + target;
+</script>
+<body>
+ <h1></h1>
+</body>
 </html>
